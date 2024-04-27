@@ -28,6 +28,7 @@ export interface LayoutLink extends Schema.Component {
   attributes: {
     url: Attribute.String;
     text: Attribute.String;
+    page: Attribute.Relation<'layout.link', 'oneToOne', 'api::page.page'>;
   };
 }
 
@@ -41,8 +42,8 @@ export interface LayoutNavBar extends Schema.Component {
   attributes: {
     Links: Attribute.Component<'layout.link', true>;
     SocialLinks: Attribute.Component<'layout.social-link', true>;
-    ImprintLink: Attribute.Component<'layout.link'>;
-    DataProtectionLink: Attribute.Component<'layout.link'>;
+    ImprintLink: Attribute.Component<'layout.link'> & Attribute.Required;
+    DataProtectionLink: Attribute.Component<'layout.link'> & Attribute.Required;
   };
 }
 

@@ -21,12 +21,14 @@
     "ImprintLink": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.link"
+      "component": "layout.link",
+      "required": true
     },
     "DataProtectionLink": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.link"
+      "component": "layout.link",
+      "required": true
     }
   }
 }
