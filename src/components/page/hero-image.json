@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_hero_images",
+  "info": {
+    "displayName": "HeroImage",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.media"
+    }
+  }
+}

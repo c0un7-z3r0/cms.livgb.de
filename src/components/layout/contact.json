@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_contacts",
+  "info": {
+    "displayName": "Contact",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Street": {
+      "type": "string"
+    },
+    "PostCode": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Telefon": {
+      "type": "string"
+    }
+  }
+}

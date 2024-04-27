@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "frontpages",
+  "info": {
+    "singularName": "frontpage",
+    "pluralName": "frontpages",
+    "displayName": "Frontpage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Gallery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.mosaic-image-gallery"
+    }
+  }
+}

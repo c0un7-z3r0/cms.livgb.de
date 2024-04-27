@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_nav_bars",
+  "info": {
+    "displayName": "NavBar",
+    "icon": "pinMap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Links": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    },
+    "SocialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.social-link"
+    },
+    "ImprintLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    },
+    "DataProtectionLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    }
+  }
+}

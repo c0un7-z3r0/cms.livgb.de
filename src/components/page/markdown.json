@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_markdowns",
+  "info": {
+    "displayName": "Text",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * picture router
+ * page router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::picture.picture');
+module.exports = createCoreRouter('api::page.page');

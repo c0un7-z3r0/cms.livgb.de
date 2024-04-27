@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_mosaic_image_galleries",
+  "info": {
+    "displayName": "MosaicImageGallery",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.media"
+    }
+  }
+}
