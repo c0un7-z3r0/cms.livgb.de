@@ -56,7 +56,7 @@ export interface LayoutSocialLink extends Schema.Component {
   };
   attributes: {
     url: Attribute.String;
-    Icon: Attribute.Enumeration<['instagram', 'facebook', 'youtube']> &
+    Icon: Attribute.Enumeration<['instagram', 'behance', 'mail']> &
       Attribute.Required;
   };
 }

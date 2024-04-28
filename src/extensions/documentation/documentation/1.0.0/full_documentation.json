@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-04-27T20:56:35.318Z"
+    "x-generation-date": "2024-04-28T09:25:21.516Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1644,8 +1644,8 @@
                   "type": "string",
                   "enum": [
                     "instagram",
-                    "facebook",
-                    "youtube"
+                    "behance",
+                    "mail"
                   ]
                 }
               }

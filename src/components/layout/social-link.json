@@ -14,8 +14,8 @@
       "type": "enumeration",
       "enum": [
         "instagram",
-        "facebook",
-        "youtube"
+        "behance",
+        "mail"
       ],
       "required": true
     }
