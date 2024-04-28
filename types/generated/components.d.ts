@@ -107,6 +107,7 @@ export interface PageMosaicImageGallery extends Schema.Component {
   };
   attributes: {
     Images: Attribute.Component<'page.media', true>;
+    Narrow: Attribute.Boolean & Attribute.DefaultTo<false>;
   };
 }
 

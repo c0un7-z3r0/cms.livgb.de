@@ -234,6 +234,9 @@
             "items": {
               "$ref": "#/components/schemas/PageMediaComponent"
             }
+          },
+          "Narrow": {
+            "type": "boolean"
           }
         }
       },
@@ -1553,6 +1556,9 @@
                                             }
                                           }
                                         }
+                                      },
+                                      "Narrow": {
+                                        "type": "boolean"
                                       }
                                     }
                                   }
