@@ -1041,7 +1041,6 @@ export interface ApiGlobalGlobal extends Schema.SingleType {
   };
   attributes: {
     Sidebar: Attribute.Component<'layout.nav-bar'>;
-    Favicon: Attribute.Media & Attribute.Required;
     Title: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;

@@ -17,14 +17,6 @@
       "repeatable": false,
       "component": "layout.nav-bar"
     },
-    "Favicon": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "Title": {
       "type": "string",
       "required": true
